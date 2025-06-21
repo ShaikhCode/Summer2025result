@@ -1,5 +1,5 @@
 "use client";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
 import { Search, Trophy, Users, TrendingUp, Download, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -210,12 +210,23 @@ export default function HomePage() {
               </Card>
               <Card className="text-center shadow-lg">
                 <CardContent className="pt-6">
-                  <ArrowUpRight className="w-8 h-8 mx-auto mb-2 text-green-600" />
+                  <ArrowDown className="w-8 h-8 mx-auto mb-2 text-green-600" />
                   <div className="text-2xl font-bold text-green-600">
-                    <a href="https://portfolio-ecru-iota-44.vercel.app/" target="_blank" rel="noopener noreferrer">GAMA</a>
+                    <a href="https://portfolio-ecru-iota-44.vercel.app/" target="_blank" rel="noopener noreferrer">Click Here</a>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400">
                     Portfolio
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="text-center shadow-lg">
+                <CardContent className="pt-6">
+                  <ArrowDown className="w-8 h-8 mx-auto mb-2 text-green-600" />
+                  <div className="text-2xl font-bold text-green-600">
+                    <a href="/aggre" target="_blank" rel="noopener noreferrer">Click</a>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Aggregate
                   </p>
                 </CardContent>
               </Card>

@@ -26,6 +26,32 @@ export const studentsData = [
   //   pdfPath: "/results/1.pdf",
   // },
   {
+    //number 0
+    seatNumber: "153089",
+    elnum: "2116350084 ",
+    name: "	GAIKAR HARSH GAURAV",
+    class: "Computer Engineering",
+    semester: "6th Semester",
+    percentage: 66.94,
+    remark: "FIRST CLASS",
+    subjects: [
+      { name: "MANAGEMENT", marks: 64, total: 100 },
+      { name: "PROGRAMMING WITH PYTHON", marks: 52, total: 100 },
+      { name: "MOBILE APPLICATION DEVELOPMENT", marks: 53, total: 100 },
+      {
+        name: "EMERGING TRENDS IN COMPUTER AND INFORMATION TECHNOLGY",
+        marks: 59,
+        total: 100,
+      },
+      {
+        name: "WEB BASED APPLICATION DEVELOPMENT USING PHP",
+        marks: 54,
+        total: 100,
+      },
+    ],
+    pdfPath: "/results/0.pdf",
+  },
+  {
     //number 1
     seatNumber: "153091",
     elnum: "2116350091 ",
